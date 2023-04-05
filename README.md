@@ -1,4 +1,7 @@
 # 60Days_Of_RTL
 
 
-## DAY 1
+DAY 1 : Half adder (behavioral and dataflow modelling)
+DAY 2 : Full adder (behavioral and dataflow modelling)
+DAY 3 : Half subtractor 
+DAY 4 : Full subtractor
