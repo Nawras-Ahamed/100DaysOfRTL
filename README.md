@@ -1,4 +1,4 @@
-# 60Days_Of_RTL
+# 100 Days_Of_RTL
 
 
 DAY 1 : Half adder (behavioral and dataflow modelling)
