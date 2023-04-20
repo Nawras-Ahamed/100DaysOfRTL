@@ -4,3 +4,8 @@
 DAY 1 : Full adder 
 
 DAY 2 : Full subtractor
+
+
+
+### SOFTWARE USED: EDA PLAYGROUND 
+### TOOLS AND SIMULATORS: ICARUS VERILOG .9.7 , EPWAVE
