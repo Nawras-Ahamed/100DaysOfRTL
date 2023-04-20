@@ -1,0 +1,103 @@
+$date
+	Thu Apr 20 14:32:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module DUT $end
+$var wire 1 ! C_output $end
+$var wire 1 " Sum $end
+$var reg 1 # A_input $end
+$var reg 1 $ B_input $end
+$var reg 1 % C_input $end
+$scope module instantiation $end
+$var wire 1 & A $end
+$var wire 1 ' B $end
+$var wire 1 ( Cin $end
+$var reg 1 ) Cout $end
+$var reg 1 * S $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1*
+1"
+1%
+1(
+#20000
+0%
+0(
+1$
+1'
+#30000
+1)
+1!
+0*
+0"
+1%
+1(
+#40000
+0)
+0!
+1*
+1"
+0%
+0(
+0$
+0'
+1#
+1&
+#50000
+1)
+1!
+0*
+0"
+1%
+1(
+#60000
+0%
+0(
+1$
+1'
+#70000
+1*
+1"
+1%
+1(
+#80000
+0)
+0!
+0*
+0"
+0%
+0(
+0$
+0'
+0#
+0&
+#90000
+1*
+1"
+1%
+1(
+#100000
+0%
+0(
+1$
+1'
