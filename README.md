@@ -5,6 +5,8 @@ DAY 1 : Full adder
 
 DAY 2 : Full subtractor
 
+DAY 3 : 4X1 MUX
+
 
 
 ### SOFTWARE USED: EDA PLAYGROUND 
