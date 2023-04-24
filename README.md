@@ -7,7 +7,11 @@ DAY 2 : Full subtractor
 
 DAY 3 : 4X1 MUX
 
-DAY 4: 1X4 DMUX 
+DAY 4 : 1X4 DMUX 
+
+DAY 5 : RIIPLE CARRY ADDER/SUBTRACTOR 
+
+DAY 6 : BCD ADDER
 
 
 
