@@ -7,6 +7,8 @@ DAY 2 : Full subtractor
 
 DAY 3 : 4X1 MUX
 
+DAY 4: 1X4 DMUX 
+
 
 
 ### SOFTWARE USED: EDA PLAYGROUND 
