@@ -1,0 +1,58 @@
+$date
+	Thu Apr 27 15:05:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module DMUX_1X8_TB $end
+$var wire 1 ! y $end
+$var reg 1 " i $end
+$var reg 3 # s [2:0] $end
+$scope module DUT $end
+$var wire 1 $ i $end
+$var wire 3 % s [2:0] $end
+$var reg 8 & y [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx1 &
+b0 %
+1$
+b0 #
+1"
+1!
+$end
+#100000
+bx11 &
+b1 #
+b1 %
+#200000
+bx111 &
+b10 #
+b10 %
+#300000
+bx1111 &
+b11 #
+b11 %
+#400000
+bx11111 &
+b100 #
+b100 %
+#500000
+bx111111 &
+b101 #
+b101 %
+#600000
+bx1111111 &
+b110 #
+b110 %
+#700000
+b11111111 &
+b111 #
+b111 %
+#800000
