@@ -1,0 +1,118 @@
+#! /usr/share/iverilog-0.9.7/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_6)";
+:vpi_time_precision - 12;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x10e9660 .scope module, "BCD_ADDER_TB" "BCD_ADDER_TB" 2 3;
+ .timescale -9 -12;
+v0x10fdfe0_0 .var "a", 3 0;
+v0x10fe080_0 .var "b", 3 0;
+v0x10fe130_0 .var "c_in", 0 0;
+v0x10fe1e0_0 .net "carry", 0 0, v0x10fddb0_0; 1 drivers
+v0x10fe2c0_0 .net "sum", 3 0, v0x10fde60_0; 1 drivers
+S_0x10e9750 .scope module, "DUT" "BCD_ADDER" 2 14, 3 3, S_0x10e9660;
+ .timescale -9 -12;
+v0x10d7930_0 .net "a", 3 0, v0x10fdfe0_0; 1 drivers
+v0x10fdc70_0 .net "b", 3 0, v0x10fe080_0; 1 drivers
+v0x10fdd10_0 .net "c_in", 0 0, v0x10fe130_0; 1 drivers
+v0x10fddb0_0 .var "carry", 0 0;
+v0x10fde60_0 .var "sum", 3 0;
+v0x10fdf00_0 .var "sum_temp", 4 0;
+E_0x10e7450 .event edge, v0x10fdd10_0, v0x10fdc70_0, v0x10d7930_0;
+    .scope S_0x10e9750;
+T_0 ;
+    %wait E_0x10e7450;
+    %load/v 8, v0x10d7930_0, 4;
+    %mov 12, 0, 1;
+    %load/v 13, v0x10fdc70_0, 4;
+    %mov 17, 0, 1;
+    %add 8, 13, 5;
+    %load/v 13, v0x10fdd10_0, 1;
+    %mov 14, 0, 4;
+    %add 8, 13, 5;
+    %set/v v0x10fdf00_0, 8, 5;
+    %movi 8, 9, 6;
+    %load/v 14, v0x10fdf00_0, 5;
+    %mov 19, 0, 1;
+    %cmp/u 8, 14, 6;
+    %jmp/0xz  T_0.0, 5;
+    %load/v 8, v0x10fdf00_0, 5;
+    %mov 13, 0, 27;
+    %addi 8, 6, 32;
+    %set/v v0x10fdf00_0, 8, 5;
+    %set/v v0x10fddb0_0, 1, 1;
+    %load/v 8, v0x10fdf00_0, 4; Only need 4 of 5 bits
+; Save base=8 wid=4 in lookaside.
+    %set/v v0x10fde60_0, 8, 4;
+    %jmp T_0.1;
+T_0.0 ;
+    %set/v v0x10fddb0_0, 0, 1;
+    %load/v 8, v0x10fdf00_0, 4; Only need 4 of 5 bits
+; Save base=8 wid=4 in lookaside.
+    %set/v v0x10fde60_0, 8, 4;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0, $push;
+    .scope S_0x10e9660;
+T_1 ;
+    %vpi_call 2 24 "$dumpfile", "waveform.vcd";
+    %vpi_call 2 25 "$dumpvars";
+    %end;
+    .thread T_1;
+    .scope S_0x10e9660;
+T_2 ;
+    %set/v v0x10fdfe0_0, 0, 4;
+    %set/v v0x10fe080_0, 0, 4;
+    %set/v v0x10fe130_0, 0, 1;
+    %delay 100000, 0;
+    %movi 8, 4, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 8, 8, 4;
+    %set/v v0x10fe080_0, 8, 4;
+    %set/v v0x10fe130_0, 1, 1;
+    %delay 100000, 0;
+    %movi 8, 4, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 8, 1, 4;
+    %set/v v0x10fe080_0, 8, 4;
+    %set/v v0x10fe130_0, 0, 1;
+    %delay 100000, 0;
+    %movi 8, 6, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 8, 9, 4;
+    %set/v v0x10fe080_0, 8, 4;
+    %set/v v0x10fe130_0, 1, 1;
+    %delay 100000, 0;
+    %movi 8, 6, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 8, 9, 4;
+    %set/v v0x10fe080_0, 8, 4;
+    %set/v v0x10fe130_0, 0, 1;
+    %delay 100000, 0;
+    %movi 8, 8, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 12, 2, 4;
+    %set/v v0x10fe080_0, 12, 4;
+    %set/v v0x10fe130_0, 0, 1;
+    %delay 100000, 0;
+    %movi 8, 8, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 12, 2, 4;
+    %set/v v0x10fe080_0, 12, 4;
+    %set/v v0x10fe130_0, 1, 1;
+    %delay 100000, 0;
+    %movi 8, 9, 4;
+    %set/v v0x10fdfe0_0, 8, 4;
+    %movi 12, 9, 4;
+    %set/v v0x10fe080_0, 12, 4;
+    %set/v v0x10fe130_0, 1, 1;
+    %delay 100000, 0;
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "testbench.sv";
+    "design.sv";
