@@ -1,0 +1,54 @@
+$date
+	Sat May  6 17:48:41 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module priority_8X3_tb $end
+$var wire 3 ! y [2:0] $end
+$var reg 8 " d [7:0] $end
+$scope module DUT $end
+$var wire 8 # din [7:0] $end
+$var reg 3 $ dout [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#100000
+b0 $
+b0 !
+b1 "
+b1 #
+#200000
+bx $
+bx !
+b10 "
+b10 #
+#300000
+b100 "
+b100 #
+#400000
+b1000 "
+b1000 #
+#500000
+b10000 "
+b10000 #
+#600000
+b100000 "
+b100000 #
+#700000
+b1000000 "
+b1000000 #
+#800000
+b10000000 "
+b10000000 #
+#900000
