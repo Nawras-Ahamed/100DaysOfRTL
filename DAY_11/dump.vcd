@@ -1,0 +1,66 @@
+$date
+	Sat May  6 17:21:32 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module encoder_tb $end
+$var wire 3 ! q [2:0] $end
+$var reg 8 " d [7:0] $end
+$scope module DUT $end
+$var wire 8 # din [7:0] $end
+$var reg 3 $ dout [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#100000
+b111 $
+b111 !
+b10000000 "
+b10000000 #
+#200000
+b110 $
+b110 !
+b1000000 "
+b1000000 #
+#300000
+b101 $
+b101 !
+b100000 "
+b100000 #
+#400000
+b100 $
+b100 !
+b10000 "
+b10000 #
+#500000
+b11 $
+b11 !
+b1000 "
+b1000 #
+#600000
+b10 $
+b10 !
+b100 "
+b100 #
+#700000
+b1 $
+b1 !
+b10 "
+b10 #
+#800000
+b0 $
+b0 !
+b1 "
+b1 #
+#900000
