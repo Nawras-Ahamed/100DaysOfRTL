@@ -1,0 +1,105 @@
+$date
+	Sun May  7 04:07:26 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Binary_to_Gray_tb $end
+$var wire 4 ! g [3:0] $end
+$var reg 4 " b [3:0] $end
+$scope module DUT $end
+$var wire 4 # b [3:0] $end
+$var reg 4 $ g [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#100000
+b0 $
+b0 !
+b0 "
+b0 #
+#200000
+b1 $
+b1 !
+b1 "
+b1 #
+#300000
+b11 !
+b11 $
+b10 "
+b10 #
+#400000
+b10 $
+b10 !
+b11 "
+b11 #
+#500000
+b110 !
+b110 $
+b100 "
+b100 #
+#600000
+b111 $
+b111 !
+b101 "
+b101 #
+#700000
+b101 !
+b101 $
+b110 "
+b110 #
+#800000
+b100 $
+b100 !
+b111 "
+b111 #
+#900000
+b1100 !
+b1100 $
+b1000 "
+b1000 #
+#1000000
+b1101 $
+b1101 !
+b1001 "
+b1001 #
+#1100000
+b1111 !
+b1111 $
+b1010 "
+b1010 #
+#1200000
+b1110 $
+b1110 !
+b1011 "
+b1011 #
+#1300000
+b1010 !
+b1010 $
+b1100 "
+b1100 #
+#1400000
+b1011 $
+b1011 !
+b1101 "
+b1101 #
+#1500000
+b1001 !
+b1001 $
+b1110 "
+b1110 #
+#1600000
+b1000 $
+b1000 !
+b1111 "
+b1111 #
