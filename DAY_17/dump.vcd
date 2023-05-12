@@ -1,0 +1,105 @@
+$date
+	Fri May 12 04:52:36 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module bin2bcd_tb $end
+$var wire 4 ! bcd [3:0] $end
+$var reg 4 " bin [3:0] $end
+$scope module DUT $end
+$var wire 4 # bin [3:0] $end
+$var reg 5 $ bcd [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#100000
+b0 !
+b0 $
+b0 "
+b0 #
+#200000
+b1 !
+b1 $
+b1 "
+b1 #
+#300000
+b10 !
+b10 $
+b10 "
+b10 #
+#400000
+b11 !
+b11 $
+b11 "
+b11 #
+#500000
+b100 !
+b100 $
+b100 "
+b100 #
+#600000
+b101 !
+b101 $
+b101 "
+b101 #
+#700000
+b110 !
+b110 $
+b110 "
+b110 #
+#800000
+b111 !
+b111 $
+b111 "
+b111 #
+#900000
+b1000 !
+b1000 $
+b1000 "
+b1000 #
+#1000000
+b1001 !
+b1001 $
+b1001 "
+b1001 #
+#1100000
+b0 !
+b10000 $
+b1010 "
+b1010 #
+#1200000
+b1 !
+b10001 $
+b1011 "
+b1011 #
+#1300000
+b10 !
+b10010 $
+b1100 "
+b1100 #
+#1400000
+b11 !
+b10011 $
+b1101 "
+b1101 #
+#1500000
+b100 !
+b10100 $
+b1110 "
+b1110 #
+#1600000
+b101 !
+b10101 $
+b1111 "
+b1111 #
