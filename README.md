@@ -41,7 +41,15 @@ DAY 17 : 4 BIT BINARY TO BCD CONVERTER
 
 ____________________________________________________________
 
+DAY 18 : CLOCK GENERATOR
 
+DAY 19 : ALU
+
+DAY 20 : MULTIPLIER
+
+DAY 21 : DIVIDER
+
+DAY 22: COMPARATOR
 
 
 ### SOFTWARE USED: EDA PLAYGROUND 
