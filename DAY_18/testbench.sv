@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1ns/10ps
 module clock_tb;
   
   wire clock_1;
@@ -20,7 +20,7 @@ module clock_tb;
   initial 
     begin
       enable_delay = $random;
-      for(int i = 0; i<8;i=i+1)
+      for(int i = 0; i<20 ;i=i+1)
         begin
           #(enable_delay) enable = ~enable;
         end

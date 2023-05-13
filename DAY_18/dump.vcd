@@ -1,0 +1,145 @@
+$date
+Sat May 13 10:55:53 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+10 ps
+$end
+
+$scope module clock_tb $end
+$var wire 1 ! clock_1 $end
+$var wire 1 " clock_2 $end
+$var reg 1 # enable $end
+$var reg 8 $ enable_delay [7:0] $end
+
+$scope module dut1 $end
+$var wire 1 % enable $end
+$var reg 1 & clk $end
+$var real 64 ' CLK_PERIOD $end
+$var real 64 ( CLK_ON $end
+$var real 64 ) CLK_OFF $end
+$var reg 1 * clk_enabled $end
+$var parameter 32 + FREQ [31:0] $end
+$var parameter 32 , PHASE [31:0] $end
+$var parameter 32 - DUTY [31:0] $end
+$upscope $end
+
+
+$scope module dut2 $end
+$var wire 1 % enable $end
+$var reg 1 . clk $end
+$var real 64 / CLK_PERIOD $end
+$var real 64 0 CLK_ON $end
+$var real 64 1 CLK_OFF $end
+$var reg 1 2 clk_enabled $end
+$var parameter 32 3 FREQ [31:0] $end
+$var parameter 32 4 PHASE [31:0] $end
+$var parameter 32 5 DUTY [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+b100100 $
+0%
+0&
+r10 '
+r500 (
+r500 )
+0*
+b11000011010100000 +
+b0 ,
+b110010 -
+0.
+r20 /
+r250 0
+r250 1
+02
+b1100001101010000 3
+b0 4
+b110010 5
+$end
+#3600
+1#
+1%
+1*
+12
+1&
+1.
+1"
+1!
+#7200
+0#
+0%
+#10800
+1#
+1%
+#14400
+0#
+0%
+#18000
+1#
+1%
+#21600
+0#
+0%
+#25200
+1#
+1%
+#28600
+0.
+0"
+#28800
+0#
+0%
+#32400
+1#
+1%
+#36000
+0#
+0%
+#39600
+1#
+1%
+#43200
+0#
+0%
+#46800
+1#
+1%
+#50400
+0#
+0%
+#53600
+0&
+1.
+1"
+0!
+#54000
+1#
+1%
+#57600
+0#
+0%
+#61200
+1#
+1%
+#64800
+0#
+0%
+#68400
+1#
+1%
+#72000
+0#
+0%
+#78600
+0.
+0"
+#82000

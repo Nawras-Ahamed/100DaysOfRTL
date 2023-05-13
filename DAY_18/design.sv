@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1ns/10ps
 
 module clock( input enable,
              output reg clk);
@@ -7,10 +7,10 @@ parameter FREQ = 100000; //khz
 parameter PHASE = 0;
 parameter DUTY = 50;
   
-  real CLK_PERIOD = 1/(FREQ * 1e3) * 1e-9; //to time scale and in ns
+  real CLK_PERIOD = 1/(FREQ * 1e3) * 1e9; //to time scale and in ns
   real CLK_ON	  = DUTY/CLK_PERIOD *100;
   real CLK_OFF	  = ((100-DUTY)/CLK_PERIOD) * 100 ;
-  real one_fourth = CLK_PERIOD/4;
+  
   
   reg clk_enabled;
   
