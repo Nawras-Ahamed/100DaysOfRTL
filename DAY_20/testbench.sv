@@ -20,17 +20,19 @@ module comparator_tb;
         .greater(greater)
     );
 
-    initial begin
-       
+    initial 
+        begin
         Din_A = 10;
         Din_B = 12;
         #100;
+            
         Din_A = 15;
         Din_B = 11;
         #100;
+            
         Din_A = 10;
         Din_B = 10;
         #100;
     end
-      
+     
 endmodule
