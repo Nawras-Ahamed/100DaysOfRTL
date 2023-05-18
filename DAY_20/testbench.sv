@@ -19,7 +19,13 @@ module comparator_tb;
         .equal(equal), 
         .greater(greater)
     );
-
+    initial
+        begin
+          $dumpfile("dump.vcd");
+          $dumpvars;
+        end
+    
+    
     initial 
         begin
         Din_A = 10;
