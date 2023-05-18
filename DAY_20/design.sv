@@ -1,21 +1,21 @@
 `timescale 10ns/1ps
 module comparator(
      input [3:0] Din_A,
-     input [3:0] Din_b,
+     input [3:0] Din_B,
      output reg less,
      output reg equal,
      output reg greater);
 
   
- always @(Din_A or Din_b)
+  always @(Din_A or Din_B)
      begin
-        if(Din_A > Din_b)   
+       if(Din_A > Din_B)   
           begin  
             less = 0;
             equal = 0;
             greater = 1;    
           end
-        else if(Din_A == Din_b)
+       else if(Din_A == Din_B)
           begin 
             less = 0;
             equal = 1;

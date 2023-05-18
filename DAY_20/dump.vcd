@@ -1,0 +1,59 @@
+$date
+Thu May 18 10:54:31 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+1 ps
+$end
+
+$scope module comparator_tb $end
+$var wire 1 ! less $end
+$var wire 1 " equal $end
+$var wire 1 # greater $end
+$var reg 4 $ Din_A [3:0] $end
+$var reg 4 % Din_B [3:0] $end
+
+$scope module DUT $end
+$var wire 4 & Din_A [3:0] $end
+$var wire 4 ' Din_B [3:0] $end
+$var reg 1 ( less $end
+$var reg 1 ) equal $end
+$var reg 1 * greater $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+1!
+0"
+0#
+b1010 $
+b1100 %
+b1010 &
+b1100 '
+1(
+0)
+0*
+$end
+#1000000
+b1111 $
+b1011 %
+b1011 '
+b1111 &
+0(
+1*
+1#
+0!
+#2000000
+b1010 $
+b1010 %
+b1010 '
+b1010 &
+1)
+0*
+0#
+1"
+#3000000
