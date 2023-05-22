@@ -45,7 +45,11 @@ DAY 18 : CLOCK GENERATOR
 
 DAY 19 : ALU
 
-DAY 20: COMPARATOR
+DAY 20 : COMPARATOR
+
+____________________________________________________________
+
+DAY 21 : SR LATCH
 
 
 ### SOFTWARE USED: EDA PLAYGROUND 
