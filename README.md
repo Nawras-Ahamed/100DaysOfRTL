@@ -51,9 +51,26 @@ ____________________________________________________________
 
 DAY 21 : SR LATCH
 
+DAY 22 : SR FF (sync and async reset)
+
+DAY 23 : D FF  (sync and async reset)
+
+DAY 24 : JK & T FF (sync and async reset)
+
+DAY 25 : MASTER SLAVE JK FF 
+
+DAY 26 : ASYNCHRONOUS UP COUNTER
+
+DAY 27 :  ASYNCHRONOUS DOWN COUNTER
+
+DAY 28 : ASYNCHRONOUS MOD-10/DECADE COUNTER
+
+DAY 29 : CUBE AND SQUARE GENERATOR
+
+DAY 30 : BOOTH MULTIPLIER 
+
 
 ### SOFTWARE USED: EDA PLAYGROUND 
 ### TOOLS AND SIMULATORS: ICARUS VERILOG .9.7 , EPWAVE
 
 
-### Switched to Cadence Xcelium 20.09 from DAY 18
