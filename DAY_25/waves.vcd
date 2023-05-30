@@ -1,0 +1,314 @@
+$date
+	Tue May 30 13:13:10 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module async_4bit_count_tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " J $end
+$var reg 1 # K $end
+$var reg 1 $ RST $end
+$var reg 1 % clk $end
+$scope module DUT $end
+$var wire 1 & J $end
+$var wire 1 ' K $end
+$var wire 1 ( RST $end
+$var wire 1 ) clk $end
+$var wire 4 * q [3:0] $end
+$scope module JK1 $end
+$var wire 1 & J $end
+$var wire 1 ' K $end
+$var wire 1 ( RST $end
+$var wire 1 ) clk $end
+$var reg 1 + Q $end
+$upscope $end
+$scope module JK2 $end
+$var wire 1 & J $end
+$var wire 1 ' K $end
+$var wire 1 ( RST $end
+$var wire 1 , clk $end
+$var reg 1 - Q $end
+$upscope $end
+$scope module JK3 $end
+$var wire 1 & J $end
+$var wire 1 ' K $end
+$var wire 1 ( RST $end
+$var wire 1 . clk $end
+$var reg 1 / Q $end
+$upscope $end
+$scope module JK4 $end
+$var wire 1 & J $end
+$var wire 1 ' K $end
+$var wire 1 ( RST $end
+$var wire 1 0 clk $end
+$var reg 1 1 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 *
+0)
+1(
+0'
+0&
+0%
+1$
+0#
+0"
+b0 !
+$end
+#50000
+1%
+1)
+#100000
+0%
+0)
+#150000
+1%
+1)
+#200000
+1#
+1'
+1"
+1&
+0$
+0(
+0%
+0)
+#250000
+1%
+1)
+#300000
+1,
+1+
+b1 !
+b1 *
+0%
+0)
+#350000
+1%
+1)
+#400000
+1.
+1-
+0,
+0+
+b10 !
+b10 *
+0%
+0)
+#450000
+1%
+1)
+#500000
+1,
+1+
+b11 !
+b11 *
+0%
+0)
+#550000
+1%
+1)
+#600000
+10
+1/
+0.
+0-
+0,
+0+
+b100 !
+b100 *
+0%
+0)
+#650000
+1%
+1)
+#700000
+1,
+1+
+b101 !
+b101 *
+0%
+0)
+#750000
+1%
+1)
+#800000
+1.
+1-
+0,
+0+
+b110 !
+b110 *
+0%
+0)
+#850000
+1%
+1)
+#900000
+1,
+1+
+b111 !
+b111 *
+0%
+0)
+#950000
+1%
+1)
+#1000000
+11
+00
+0/
+0.
+0-
+0,
+0+
+b1000 !
+b1000 *
+0%
+0)
+#1050000
+1%
+1)
+#1100000
+1,
+1+
+b1001 !
+b1001 *
+0%
+0)
+#1150000
+1%
+1)
+#1200000
+1.
+1-
+0,
+0+
+b1010 !
+b1010 *
+0%
+0)
+#1250000
+1%
+1)
+#1300000
+1,
+1+
+b1011 !
+b1011 *
+0%
+0)
+#1350000
+1%
+1)
+#1400000
+10
+1/
+0.
+0-
+0,
+0+
+b1100 !
+b1100 *
+0%
+0)
+#1450000
+1%
+1)
+#1500000
+1,
+1+
+b1101 !
+b1101 *
+0%
+0)
+#1550000
+1%
+1)
+#1600000
+1.
+1-
+0,
+0+
+b1110 !
+b1110 *
+0%
+0)
+#1650000
+1%
+1)
+#1700000
+1,
+1+
+b1111 !
+b1111 *
+0%
+0)
+#1750000
+1%
+1)
+#1800000
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 !
+b0 *
+0%
+0)
+1$
+1(
+#1850000
+1%
+1)
+#1900000
+0%
+0)
+#1950000
+1%
+1)
+#2000000
+0$
+0(
+0%
+0)
+#2050000
+1%
+1)
+#2100000
+1,
+1+
+b1 !
+b1 *
+0%
+0)
+#2150000
+1%
+1)
+#2200000
+1.
+1-
+0,
+0+
+b10 !
+b10 *
+0%
+0)
