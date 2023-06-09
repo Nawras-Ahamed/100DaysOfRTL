@@ -5,9 +5,9 @@ module ODD_COUNTER (
 					);
 
 always @(posedge clk or posedge reset)
-	    if (reset)
-	      out <= 8'h1;
-	    else
-	      out <= out + 8'h2;
+    if (reset)
+      out <= 8'd1;
+    else
+      out <= out + 8'd2;
 
 endmodule
