@@ -1,7 +1,7 @@
 # 100 Days_Of_RTL
 _______________________________________________________
 
-DAY 1 : Full adder 
+DAY 1 : FULL ADDER
 
 DAY 2 : Full subtractor
 
