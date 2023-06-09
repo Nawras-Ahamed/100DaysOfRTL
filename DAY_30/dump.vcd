@@ -1,0 +1,135 @@
+$date
+	Fri Jun  9 01:55:05 2023
+$end
+$version
+	QuestaSim Version 2021.3
+$end
+$timescale
+	1ps
+$end
+
+$scope module odd_counter_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var wire 1 # out [7] $end
+$var wire 1 $ out [6] $end
+$var wire 1 % out [5] $end
+$var wire 1 & out [4] $end
+$var wire 1 ' out [3] $end
+$var wire 1 ( out [2] $end
+$var wire 1 ) out [1] $end
+$var wire 1 * out [0] $end
+
+$scope module DUT $end
+$var wire 1 + clk $end
+$var wire 1 , reset $end
+$var reg 8 - out [7:0] $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b1 -
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+1,
+0+
+$end
+#50000
+1!
+1+
+0"
+0,
+#100000
+0!
+0+
+#150000
+1!
+1+
+b11 -
+1)
+#200000
+0!
+0+
+#250000
+1!
+1+
+b101 -
+0)
+1(
+#300000
+0!
+0+
+#350000
+1!
+1+
+b111 -
+1)
+#400000
+0!
+0+
+#450000
+1!
+1+
+b1001 -
+0)
+0(
+1'
+#500000
+0!
+0+
+#550000
+1!
+1+
+b1011 -
+1)
+#600000
+0!
+0+
+#650000
+1!
+1+
+b1101 -
+0)
+1(
+#700000
+0!
+0+
+#750000
+1!
+1+
+b1111 -
+1)
+#800000
+0!
+0+
+#850000
+1!
+1+
+b10001 -
+0)
+0(
+0'
+1&
+#900000
+0!
+0+
+#950000
+1!
+1+
+b10011 -
+1)
+#1000000
+0!
+0+
