@@ -1,0 +1,75 @@
+$date
+	Sun Jun 11 05:46:43 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module odd_parity_tb $end
+$var wire 1 ! odd_p $end
+$var reg 3 " data [2:0] $end
+$var integer 32 # i [31:0] $end
+$scope module DUT $end
+$var wire 3 $ data [2:0] $end
+$var wire 1 ! odd_p $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+bx "
+x!
+$end
+#200000
+1!
+b1 #
+b0 "
+b0 $
+#400000
+0!
+b10 #
+b1 "
+b1 $
+#600000
+b11 #
+b10 "
+b10 $
+#800000
+1!
+b100 #
+b11 "
+b11 $
+#1000000
+0!
+b101 #
+b100 "
+b100 $
+#1200000
+1!
+b110 #
+b101 "
+b101 $
+#1400000
+b111 #
+b110 "
+b110 $
+#1600000
+0!
+b1000 #
+b111 "
+b111 $
+#1800000
+1!
+b1001 #
+b0 "
+b0 $
+#2000000
+0!
+b1010 #
+b1 "
+b1 $
+#2200000
