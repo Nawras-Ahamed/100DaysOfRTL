@@ -3,7 +3,7 @@ _______________________________________________________
 
 DAY 1 : FULL ADDER
 
-DAY 2 : Full subtractor
+DAY 2 : FULL SUBTRACTOR
 
 DAY 3 : 4X1 MUX
 
@@ -71,10 +71,14 @@ DAY 30 : ODD COUNTER
 
 DAY 31 : PARITY GENERATOR
 
-DAY 32 : CLOCK DIVIDER
+DAY 32 : RING AND JHONSON COUNTER
 
-DAY 33 : SEQUENCE DETECTOR 
+DAY 33 : GRAY COUNTER 
 
+DAY 34 : CLOCK FREQ DIVIDER
+
+DAY 35 : PSEUDO RANDOM SEQUENCE GENERATOR 
+_____________________________________________________
 
 
 ### SOFTWARE USED: EDA PLAYGROUND / XILINX ISE
