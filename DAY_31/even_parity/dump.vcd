@@ -1,0 +1,78 @@
+$date
+    Jun 11, 2023  01:37:42
+$end
+$version
+    TOOL:	xmsim	20.09-s003
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb_even_parity $end
+$var reg       3 !    data [2:0] $end
+$var wire      1 "    even_p  $end
+$var integer  32 #    i $end
+
+$scope module DUT $end
+$var wire      3 $    data [2:0] $end
+$var wire      1 "    even_p  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+x"
+b0 #
+bx $
+$end
+#200000
+b0 !
+b1 #
+b0 $
+0"
+#400000
+b1 !
+b10 #
+b1 $
+1"
+#600000
+b10 !
+b11 #
+b10 $
+#800000
+b11 !
+b100 #
+b11 $
+0"
+#1000000
+b100 !
+b101 #
+b100 $
+1"
+#1200000
+b101 !
+b110 #
+b101 $
+0"
+#1400000
+b110 !
+b111 #
+b110 $
+#1600000
+b111 !
+b1000 #
+b111 $
+1"
+#1800000
+b0 !
+b1001 #
+b0 $
+0"
+#2000000
+b1 !
+b1010 #
+b1 $
+1"
+#2200000
