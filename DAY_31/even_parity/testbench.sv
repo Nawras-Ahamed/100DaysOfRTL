@@ -1,6 +1,6 @@
 `timescale 10ns / 1ps
 
-module tb_even_parity;
+module even_parity_tb;
 	
   reg [2:0] data;
   wire even_p;
