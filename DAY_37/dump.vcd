@@ -1,0 +1,183 @@
+$date
+	Tue Jun 20 05:27:52 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_sipo $end
+$var wire 4 ! data_out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # data_in $end
+$var reg 1 $ rst $end
+$scope module DUT $end
+$var wire 1 % clk $end
+$var wire 1 & data_in $end
+$var wire 4 ' data_out [3:0] $end
+$var wire 1 ( rst $end
+$scope module d1 $end
+$var wire 1 % clk $end
+$var wire 1 & in $end
+$var wire 1 ( rst $end
+$var reg 1 ) q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 % clk $end
+$var wire 1 * in $end
+$var wire 1 ( rst $end
+$var reg 1 + q $end
+$upscope $end
+$scope module d3 $end
+$var wire 1 % clk $end
+$var wire 1 , in $end
+$var wire 1 ( rst $end
+$var reg 1 - q $end
+$upscope $end
+$scope module d4 $end
+$var wire 1 % clk $end
+$var wire 1 . in $end
+$var wire 1 ( rst $end
+$var reg 1 / q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#30
+$dumpvars
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+b0 '
+1&
+0%
+0$
+1#
+0"
+b0 !
+$end
+#35
+1*
+1)
+b1 !
+b1 '
+1"
+1%
+#40
+0"
+0%
+#45
+1,
+1+
+b11 !
+b11 '
+1"
+1%
+#50
+0"
+0%
+#55
+1.
+1-
+b111 !
+b111 '
+1"
+1%
+#60
+0"
+0%
+#65
+1/
+b1111 !
+b1111 '
+1"
+1%
+#70
+0"
+0%
+0#
+0&
+#75
+0*
+0)
+b1110 !
+b1110 '
+1"
+1%
+#80
+0"
+0%
+1#
+1&
+#85
+0,
+1*
+0+
+1)
+b1101 !
+b1101 '
+1"
+1%
+#90
+0"
+0%
+#95
+1,
+0.
+1+
+0-
+b1011 !
+b1011 '
+1"
+1%
+#100
+0"
+0%
+0#
+0&
+#105
+1.
+0*
+0/
+1-
+0)
+b110 !
+b110 '
+1"
+1%
+#110
+0"
+0%
+1#
+1&
+#115
+1*
+0,
+1)
+0+
+1/
+b1101 !
+b1101 '
+1"
+1%
+#120
+0"
+0%
+#125
+0.
+1,
+0-
+1+
+b1011 !
+b1011 '
+1"
+1%
+#130
+0"
+0%
