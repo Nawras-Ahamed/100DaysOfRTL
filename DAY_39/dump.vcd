@@ -1,0 +1,158 @@
+$date
+	Wed Jun 21 04:07:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module UNI_SR_TB $end
+$var wire 4 ! data_out [3:0] $end
+$var wire 1 " leftshift_o $end
+$var wire 1 # rightshift_o $end
+$var reg 1 $ clear $end
+$var reg 1 % clk $end
+$var reg 4 & data_in [3:0] $end
+$var reg 2 ' mode [1:0] $end
+$var reg 1 ( shift_data $end
+$scope module DUT $end
+$var wire 1 ) clear $end
+$var wire 1 * clk $end
+$var wire 4 + data_in [3:0] $end
+$var wire 1 " leftshift_o $end
+$var wire 2 , mode [1:0] $end
+$var wire 1 # rightshift_o $end
+$var wire 1 - shift_data $end
+$var reg 4 . data_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx .
+x-
+bx ,
+bx +
+0*
+1)
+x(
+bx '
+bx &
+0%
+1$
+x#
+x"
+bx !
+$end
+#5
+0"
+1#
+b1010 .
+b1010 !
+b11 '
+b11 ,
+0(
+0-
+b1010 &
+b1010 +
+0$
+0)
+1%
+1*
+#10
+b1 '
+b1 ,
+0%
+0*
+#15
+1"
+0#
+b101 .
+b101 !
+1%
+1*
+#20
+0%
+0*
+#25
+0"
+b10 .
+b10 !
+1%
+1*
+#30
+0%
+0*
+b11 '
+b11 ,
+1(
+1-
+b1101 &
+b1101 +
+#35
+1"
+1#
+b1101 .
+b1101 !
+1%
+1*
+#40
+0%
+0*
+b10 '
+b10 ,
+#45
+b1011 .
+b1011 !
+1%
+1*
+#50
+0%
+0*
+#55
+0#
+b111 .
+b111 !
+1%
+1*
+#60
+0%
+0*
+b0 '
+b0 ,
+#65
+1%
+1*
+#70
+0%
+0*
+b10 '
+b10 ,
+b110 &
+b110 +
+#75
+1#
+b1011 .
+b1011 !
+1%
+1*
+b1 '
+b1 ,
+#80
+0%
+0*
+#85
+b1101 .
+b1101 !
+1%
+1*
+#90
+0%
+0*
+#95
+0"
+b1110 .
+b1110 !
+1%
+1*
