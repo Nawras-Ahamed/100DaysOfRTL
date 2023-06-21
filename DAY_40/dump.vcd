@@ -1,0 +1,68 @@
+$date
+	Wed Jun 21 04:42:53 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module barrel_shifter_tb $end
+$var wire 8 ! data_out [7:0] $end
+$var reg 1 " clear $end
+$var reg 8 # data_in [7:0] $end
+$var reg 1 $ lr $end
+$var reg 3 % n [2:0] $end
+$scope module DUT $end
+$var wire 1 & clear $end
+$var wire 8 ' data_in [7:0] $end
+$var wire 1 ( lr $end
+$var wire 3 ) n [2:0] $end
+$var reg 8 * data_out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+bx )
+x(
+bx '
+1&
+bx %
+x$
+bx #
+1"
+b0 !
+$end
+#5
+bx *
+bx !
+0"
+0&
+#10
+b11000000 *
+b11000000 !
+b101 %
+b101 )
+1$
+1(
+b10111110 #
+b10111110 '
+#20
+b10000000 *
+b10000000 !
+b10 %
+b10 )
+b100000 #
+b100000 '
+#30
+b1 *
+b1 !
+b111 %
+b111 )
+0$
+0(
+b11111111 #
+b11111111 '
+#50
