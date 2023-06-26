@@ -1,4 +1,4 @@
-# 100 Days_Of_RTL
+# 100DaysOfRTL
 _______________________________________________________
 
 DAY 1 : FULL ADDER
@@ -28,8 +28,6 @@ DAY 12 : 3X8 DECODER
 DAY 13 : PRORITY ENCODER
 
 ____________________________________________________________
-
-### CODE CONVERTERS
 
 DAY 14 : 4 BIT BINARY TO GRAY CODE CONVERTER
 
