@@ -1,0 +1,101 @@
+$date
+	Mon Jul 10 16:41:30 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Rom_tb $end
+$var wire 16 ! data [15:0] $end
+$var reg 4 " addr [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ r_en $end
+$scope module DUT $end
+$var wire 4 % addr [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' r_en $end
+$var reg 16 ( data [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+x'
+0&
+bx %
+x$
+0#
+bx "
+bx !
+$end
+#5
+b0zzzzzzzz (
+b0zzzzzzzz !
+1#
+1&
+#10
+0#
+0&
+1$
+1'
+#15
+b0xxxxxxxxx (
+b0xxxxxxxxx !
+1#
+1&
+#20
+0#
+0&
+b1 "
+b1 %
+#25
+b10010001 (
+b10010001 !
+1#
+1&
+#30
+0#
+0&
+b10 "
+b10 %
+#35
+b100011 (
+b100011 !
+1#
+1&
+#40
+0#
+0&
+b11 "
+b11 %
+#45
+b11100010 (
+b11100010 !
+1#
+1&
+#50
+0#
+0&
+b100 "
+b100 %
+#55
+b110100 (
+b110100 !
+1#
+1&
+#60
+0#
+0&
+b101 "
+b101 %
+#65
+b100100 (
+b100100 !
+1#
+1&
+#70
+0#
+0&
