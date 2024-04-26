@@ -124,6 +124,14 @@ DAY 55 : SYNCHRONOUS FIFO V2
 DAY 56 : SYNCHRONOUS FIFO V3 (with almost_full , almost_empty flags)
 
 DAY 57 : ASYNCHRONOUS FIFO 
+____________________________________________________
+
+DAY 58 : FIXED PRIORITY ARBITER
+
+DAY 59 : ROUND ROBIN ARBITER
+
+DAY 60 : Variable Time Slice RR ARBITER
+____________________________________________________
 
 
 ### SOFTWARE USED : EDA PLAYGROUND / XILINX ISE
