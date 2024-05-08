@@ -133,8 +133,26 @@ DAY 59 : ROUND ROBIN ARBITER
 DAY 60 : Variable Time Slice RR ARBITER
 ____________________________________________________
 
+DAY 61 : PWM 
 
-### SOFTWARE USED : EDA PLAYGROUND / XILINX ISE
-### TOOLS AND SIMULATORS : ICARUS VERILOG .9.7 / YOSYS
+DAY 62 : PWM with DUTY control 
+____________________________________________________
+
+DAY 63 : RESTORING DIVISION
+
+DAY 64 : NON-RESTORING DIVISION
+
+DAY 65 : CARRY SKIP ADDER
+
+DAY 66 : WALLACE TREE ADDER
+
+
+
+
+
+
+
+
+### TOOLS AND SIMULATORS : ICARUS VERILOG 0.9.7 / YOSYS / GTKWAVE
 
 
