@@ -1,0 +1,8 @@
+read -sv DAY_63.sv
+hierarchy -simcheck -check -top DAY_63
+proc; opt; techmap; opt
+write_verilog synth.v
+dfflibmap -liberty mycells.lib
+abc -liberty mycells.lib
+clean
+show -prefix DAY_63 -colors 20240513-105332
