@@ -1,0 +1,8 @@
+read_verilog DAY_64.sv
+synth -top DAY_64
+proc; opt; techmap; opt
+write_verilog synth.v
+dfflibmap -liberty /home/nawras/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/nawras/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime,{D};strash;dch,-f;map,-M,1,{D}
+clean
+show -prefix DAY_64 -colors 20240517-000200
