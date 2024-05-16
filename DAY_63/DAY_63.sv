@@ -61,7 +61,6 @@ endmodule
 module full_adder(input a,b,cin,
 				  output reg sum, cout);
 
-wire x,y,z;
 assign sum = a^b^cin;
 assign cout = a&b + b&cin + cin&a;
 endmodule
