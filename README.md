@@ -138,15 +138,65 @@ DAY 61 : PWM
 DAY 62 : PWM with DUTY control 
 ____________________________________________________
 
-DAY 63 : RESTORING DIVISION
+DAY 63 : Carry Skip Adder
 
-DAY 64 : NON-RESTORING DIVISION
+DAY 64 : Carry Select Adder
 
-DAY 65 : CARRY SKIP ADDER
+DAY 65 : IEEE 754 Addition Subtraction
 
-DAY 66 : WALLACE TREE ADDER
+DAY 66 : IEEE 754 Multiplication
 
-DAY 67 : CARRY SELECT ADDER
+DAY 67 : IEEE 754 Division
+
+DAY 68 : Pipelined Adder
+
+DAY 69 : Wallace Tree Adder
+
+DAY 70 : Radix-4 Booth Multiplier
+
+___________________________________________________
+
+DAY 71 : APB MASTER
+
+DAY 72 : APB SLAVE
+
+_____________________________________________________
+
+DAY 73 : SV - ENUM
+
+DAY 74 : SV - ARRAYS
+
+DAY 75 : SV - fork-join , wait-join
+
+DAY 76 : SV - TB INTERFACES
+
+DAY 78 : SV - TB RANDOM
+
+DAY 79 : SV - TB CONSTRAINTS
+
+DAY 80 : SV - TB QUEUES
+
+DAY 81 : SV - TASKS & FUNCTIONS
+
+DAY 82 : SV - MAILBOX FOR TB
+
+DAY 83 : SV - EVENTS
+
+DAY 84 : SV - TB FOR FULL ADDER
+
+DAY 85 : SV - TB FOR ARITHMETIC AND LOGICAL UNIT
+
+DAY 86 : SV - CLOCKING BLOCKS
+
+DAY 87 : SV - ASSERTIONS 
+
+DAY 88 : SV - ASSERTIONS SEQUENCE
+
+DAY 89 : SV - FUNCTIONAL COVERAGE - 1
+
+DAY 90 : SV - FUNCTIONAL COVERAGE - 2
+
+__________________________________________________
 
 
 
